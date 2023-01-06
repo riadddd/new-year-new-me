@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+header{
+    background-image: url("/images/banner/banner3.png");
+    width: 100%;
+    height: 800px;
+}
+.banner-division{
+    padding: 216px 230px 364px 845px;
+    text-align: right;
+}
+.banner-title{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 65px;
+}
+.banner-subtitle{
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 24px;
+}
+.main-button{
+    color: #005FAC;
+    font-weight: 600;
+    font-size: 20px;
+    background: #FFFFFF;
+    width: 160px;
+    height: 60px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+/* main part/failure part */
+.failure-area{
+    max-width:1400px;
+    height: 500px;
+    margin:45px 250px 0px 250px  ;
+}
+.failure-part{
+    display: flex;
+}
+.failure-title{
+    margin:280px 20px 20px 80px   ;
+}
+.failure-des{
+    margin:0 2px 15px 80px;
+    color: #444343;
+}
+.light{
+    margin: 0px 0px 0px 80px;
+}
+span{
+    color: #757070;
+    font-size:16px ;
+}
+
+/* my plans  */
+
+.failure-title{
+    margin-bottom:10px;
+    text-align: center;
+    font-weight: 700;
+}
+.plan-pic{
+    margin-left: 50px;
+}
+.plan-area{
+    display: flex;
+    gap: 0 30px;
+    margin-top: 20px;
+
+}
+.plan-whole{
+    max-width:1400px;
+    height: 200px;
+    margin:5px 350px  ;
+}
+.plan-des{
+    text-align: center;
+}
+
+/* watch part  */
+
+.watch-part{
+    background-image:linear-gradient(to left, rgba(255, 0, 0, 0.326), rgb(255, 99, 71)), url("/images/watch.png");
+    background-repeat: no-repeat;
+    width: 1140px;
+    height: 300px;
+    margin:130px 230px;
+    
+}
+.watch-part h1{
+    padding: 59px 617px 59px 64px ;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 40px;
+}
+.second-button{
+    color: #005FAC;
+    font-weight: 600;
+    font-size: 20px;
+    background: #FFFFFF;
+    width: 160px;
+    height: 60px;
+    border: none;
+    border-radius: 5px;
+    margin:0px 0 0 60px;
+}
+
+/* motivation part */
+
+
+.motivation-title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+}
+.motivation-des{
+   margin: 0px 300px;
+}
+.motivation-flex{
+    display: flex;
+    width: 1000px;
+    height: 200px;
+    margin: 30px 200px;
+    gap: 0 80px;
+}   
+.motivation-items{
+    box-shadow: 2px 5px 10px
+    gray;
+    border-radius: 5px;
+}
+.motivation-image{
+    width: 360px;
+    height: 350px;
+}
+
+footer{
+    width: 100%;
+    height: 300px;
+    margin-top: 200px ;
+    background: #151414;
+}
+.footer-flex{
+    display: flex;
+    padding: 40px 220px;
+}
+footer h1{
+    color: #F8F8F8;
+    font-weight: 700;
+    font-size: 45px;
+}
+footer p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-right: 20px;
+}
+footer button{
+    color:#FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+    background:  #005FAC;
+    width: 160px;
+    height: 60px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+footer input{
+width: 250px;
+height: 40px;
+}
