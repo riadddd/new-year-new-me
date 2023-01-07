@@ -86,7 +86,7 @@ span{
 /* watch part  */
 
 .watch-part{
-    background-image:linear-gradient(to left, rgba(255, 0, 0, 0.326), rgb(255, 99, 71)), url("/images/watch.png");
+    background-image:linear-gradient(to left, rgba(255, 0, 0, 0.326), rgb(255, 99, 71)), url("../images/watch.png");
     background-repeat: no-repeat;
     width: 1140px;
     height: 300px;
